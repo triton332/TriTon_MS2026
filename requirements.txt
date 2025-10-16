@@ -1,0 +1,8 @@
+PyQt6>=6.5
+numpy>=1.26
+ffmpeg-python>=0.2
+pydub>=0.25
+simpleaudio>=1.0
+faster-whisper>=1.0
+pyqtgraph>=0.13
+opencv-python>=4.8

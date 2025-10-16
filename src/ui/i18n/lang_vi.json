@@ -1,0 +1,16 @@
+{
+  "app_title": "Tri Tôn Music Studio 2026",
+  "menu_language": "Ngôn ngữ",
+  "lang_vi": "Tiếng Việt",
+  "lang_en": "English",
+  "btn_add_music": "Thêm nhạc",
+  "btn_play": "Phát",
+  "btn_pause": "Tạm dừng",
+  "btn_prev": "Lùi",
+  "btn_next": "Tới",
+  "volume": "Âm lượng",
+  "playlist": "Danh sách phát",
+  "status_ready": "Sẵn sàng",
+  "status_playing": "Đang phát",
+  "status_paused": "Tạm dừng"
+}

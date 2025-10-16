@@ -1,0 +1,19 @@
+{
+  "language": "vi",
+  "render": {
+    "resolution": "4K",
+    "ratio": "16:9",
+    "orientation": "Landscape",
+    "fps": 30
+  },
+  "visual": {
+    "style": "Line Neon",
+    "glow": true,
+    "bloom": true
+  },
+  "karaoke": {
+    "font": "Roboto",
+    "color": "#FFD700",
+    "line_spacing": 8
+  }
+}

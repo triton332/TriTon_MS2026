@@ -1,0 +1,16 @@
+{
+  "app_title": "Tri Ton Music Studio 2026",
+  "menu_language": "Language",
+  "lang_vi": "Vietnamese",
+  "lang_en": "English",
+  "btn_add_music": "Add Music",
+  "btn_play": "Play",
+  "btn_pause": "Pause",
+  "btn_prev": "Previous",
+  "btn_next": "Next",
+  "volume": "Volume",
+  "playlist": "Playlist",
+  "status_ready": "Ready",
+  "status_playing": "Playing",
+  "status_paused": "Paused"
+}
