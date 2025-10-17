@@ -1,5 +1,5 @@
 ## 5) `tools/build_zip.py`
-```python
+
 from pathlib import Path
 import shutil, datetime
 
