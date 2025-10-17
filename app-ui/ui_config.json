@@ -1,7 +1,9 @@
 {
-  "theme": "Soft Glow Light",
-  "background": "#f4f4f8",
-  "accent": "#c5b4f0",
-  "text_primary": "#333",
-  "highlight": "#a48be0"
+"theme": "Soft Glow Light",
+"background": "#f4f4f8",
+"plot_bg": "#1e1e1e",
+"wave_color": "#00ffcc",
+"spectrum_color": "#a48be0",
+"text_primary": "#333",
+"highlight": "#a48be0"
 }

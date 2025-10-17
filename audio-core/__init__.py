@@ -1,0 +1,1 @@
+# Placeholder cho audio core (tách IO, DSP ở các sprint sau)

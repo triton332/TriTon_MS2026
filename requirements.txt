@@ -1,8 +1,20 @@
-PyQt6>=6.5
-numpy>=1.26
-ffmpeg-python>=0.2
-pydub>=0.25
-simpleaudio>=1.0
-faster-whisper>=1.0
-pyqtgraph>=0.13
-opencv-python>=4.8
+# Core DSP & math
+numpy
+
+
+# Audio processing
+pydub
+
+
+# UI & plotting
+PyQt5
+pyqtgraph
+
+
+# Video rendering (giai đoạn sau)
+moviepy
+ffmpeg-python
+
+
+# Dev tools (tuỳ chọn cho local)
+autopep8

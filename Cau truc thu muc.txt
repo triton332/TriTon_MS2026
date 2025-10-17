@@ -1,0 +1,25 @@
+TriTon_MusicStudio2026/
+├─ .gitignore
+├─ README.md
+├─ requirements.txt
+├─ .vscode/
+│   └─ settings.json
+├─ tools/
+│   └─ build_zip.py
+├─ tests/
+│   └─ test_smoke.py
+├─ app-ui/
+│ ├─ mainwindow_v12_3.py
+│ ├─ waveform_viewer.py
+│ ├─ ui_config.json
+│ └─ assets/
+│   └─ sample.wav
+├─ audio-core/
+│ ├─ __init__.py
+│ └─ io_utils.py
+├─ render-core/
+│ ├─ __init__.py
+│ └─ exporter.py
+└─ .github/
+  └─ workflows/
+     └─ ci_build.yml
