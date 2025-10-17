@@ -1,6 +1,3 @@
----
-
-
 ## 5) `tools/build_zip.py`
 ```python
 from pathlib import Path
@@ -13,12 +10,12 @@ DIST.mkdir(exist_ok=True)
 
 
 INCLUDE = [
-"app-ui",
-"audio-core",
-"render-core",
-"README.md",
-"requirements.txt",
-"tools",
+    "app-ui",
+    "audio-core",
+    "render-core",
+    "README.md",
+    "requirements.txt",
+    "tools",
 ]
 
 
@@ -28,17 +25,17 @@ zip_name = DIST / f"studio-2026_{stamp}"
 
 TMP = ROOT / ".pack_tmp"
 if TMP.exists():
-shutil.rmtree(TMP)
+    shutil.rmtree(TMP)
 TMP.mkdir()
 
 
 for item in INCLUDE:
-src = ROOT / item
-if src.exists():
-if src.is_dir():
-shutil.copytree(src, TMP / src.name)
-else:
-shutil.copy2(src, TMP / src.name)
+    src = ROOT / item
+    if src.exists():
+        if src.is_dir():
+            shutil.copytree(src, TMP / src.name)
+        else:
+            shutil.copy2(src, TMP / src.name)
 
 
 archive_path = shutil.make_archive(str(zip_name), "zip", root_dir=TMP)
