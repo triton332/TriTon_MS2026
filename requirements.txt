@@ -1,20 +1,8 @@
-# Core DSP & math
-numpy
-
-
-# Audio processing
-pydub
-
-
-# UI & plotting
 PyQt5
+numpy
+pydub
 pyqtgraph
-
-
-# Video rendering (giai đoạn sau)
+scipy
 moviepy
 ffmpeg-python
-
-
-# Dev tools (tuỳ chọn cho local)
-autopep8
+proglog
